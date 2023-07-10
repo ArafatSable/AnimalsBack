@@ -25,5 +25,8 @@
     "passport-local-mongoose": "^8.0.0",
     "path": "^0.12.7",
     "react-slick": "^0.29.0"
+  },
+   "engines": {
+    "node": ">=14.20.1"
   }
 }
