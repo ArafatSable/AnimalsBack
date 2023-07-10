@@ -1,0 +1,157 @@
+/* imports fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("../partials/variables.css");
+@import url("../partials/global.css");
+
+/* "start navigation" */
+.hearder_area .main-menu .navbar .navbar-brand {
+    padding: 0 0rem 0 0rem;
+}
+
+.hearder_area .main-menu .navbar {
+    padding: 0.5rem 0rem;
+    background: black;
+}
+
+.hearder_area .main-menu .nav-item .nav-link {
+    font: normal 500 18px / 2px var(--roboto);
+    text-transform: uppercase;
+    padding: 0.7rem;
+    color: var(--title-color);
+
+}
+
+.hearder_area .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-left: 19rem;
+}
+
+.hearder_area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */
+
+/* start banner area */
+.site-main .site-banner {
+    background: rgb(0, 0, 0);
+    background-image: url(../img/bone.png), url(../img/logo6.jpg);
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    padding: 0rem 0rem 20rem 0rem;
+}
+
+.site-main .site-banner .site-title h2 {
+    padding-top: 2rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+/* end of banner area  */
+
+/* start of dog area  */
+.site-main .dog-content {
+    background-color: rgba(255, 166, 0, 0.518);
+}
+.site-main .dog-content .card_dog{
+    padding:0 10rem;
+}
+
+.site-main .dog-content .content h3 {
+    font: normal 500 35px / 2px var(--roboto);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.site-main .dog-content .content h4 {
+    font: normal 500 20px / 25px var(--roboto);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* end of dog area  */
+
+/* start of cat area  */
+.site-main .cat-content {
+    background-color: whitesmoke;
+}
+.site-main .cat-content .card_cat{
+    padding:0 10rem;
+}
+
+.site-main .cat-content .content h3 {
+    font: normal 500 35px / 2px var(--roboto);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.site-main .cat-content .content h4 {
+    font: normal 500 20px / 25px var(--roboto);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* end of fish area  */
+
+/* start of fish area  */
+.site-main .fish-content {
+    background-color: rgba(255, 166, 0, 0.518);
+}
+.site-main .fish-content .card_fish{
+    padding:0 10rem;
+}
+
+.site-main .fish-content .content h3 {
+    font: normal 500 35px / 2px var(--roboto);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.site-main .fish-content .content h4 {
+    font: normal 500 20px / 25px var(--roboto);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* end of fish area  */
+
+
+
+
+
+
+
+
+/* foter area */
+footer.footer-area {
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png)no-repeat;
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/30px var(--roboto);
+    color: white;
+}
+
+footer.footer-area .social a>i {
+    font-size: 22px;
+    padding: 2rem;
+    color: white;
+}
+
+footer.footer-area .social a:hover>i {
+    color: var(--primary-color);
+}
+
+/* end foter area */
